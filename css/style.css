@@ -1,0 +1,57 @@
+nav ul li {
+    display: inline-block;
+}
+
+#homeimg {
+    height: auto;
+    width: 400px;
+}
+
+body {
+    background-color: brown;
+    font-family: 'Nunito', sans-serif;
+    font-weight: 400;
+    text-align: center;
+    padding: 0px  !important;
+}
+
+h1, h2 {
+    font-weight: 400;
+}
+
+header {
+    background-color: green;
+    
+}
+
+header, section {
+    padding: 5%,5%,0%,5%;
+}
+
+.whitelink{
+    color: white;
+}
+
+nav {
+    border: dotted 5px greenyellow;
+}
+
+.active{
+    color: blue;
+    background-color: white;
+    border-radius: 3px;
+}
+
+.nounderline {
+    text-decoration: none;
+    padding: 1opx 10px 0px 10px;
+}
+
+img {
+    opacity: 1.0;
+    transition: opacity .25s ease-in-out;
+  }
+  
+  img:hover {
+    opacity: 0.5;
+  }
